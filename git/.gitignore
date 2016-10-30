@@ -1,0 +1,16 @@
+Program Files/__pycache__
+Program Files\__pycache__\
+Program Files\.idea\*
+*.pyc
+*.xml
+*.class
+.idea/
+*.log
+*.o
+*.swp
+.ycm_extra_conf.py
+tags
+*.dSYM/
+*.ses
+out/
+.depend
