@@ -29,16 +29,14 @@ set expandtab              " On pressing tab, insert 3 spaces
 " --- general ---
 set backspace=indent,eol,start  "Allow backspace in insert mode
 set history=1000                "Store lots of :cmdline history
-set showcmd                     "Show incomplete cmds down the
-bottom
+set showcmd                     "Show incomplete cmds down the bottom
 set showmode                    "Show current mode down the bottom
 set gcr=a:blinkon0              "Disable cursor blink
 set visualbell                  "No sounds
 set autoread                    "Reload files changed outside vim
 set hidden                      "Hide buffers
 set ignorecase                  "Case insensitive search
-set smartcase                   "Case sensitive when search has
-capitals
+set smartcase                   "Case sensitive when search has capitals
 
 
 " move up/down one row at a time
@@ -53,8 +51,7 @@ nnoremap <leader>h :A<CR>
 nnoremap <leader>g :grep! "\b<C-r><C-w>\b"<cr><cr>:copen<cr>
 
 " go to previous buffer and close (b for back)
-" useful when recently searched for something and don't want to
-keep buffer
+" useful when recently searched for something and don't want to keep buffer
 " open
 nnoremap <leader>b <C-^>:bd#<CR>
 
