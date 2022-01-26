@@ -23,8 +23,7 @@ set number
 " --- indentation ---
 filetype plugin indent on
 set tabstop=3              " show existing tab with 3 spaces width
-set shiftwidth=3           " when indenting with '>', use 3 spaces
-width
+set shiftwidth=3           " when indenting with '>', use 3 spaces width
 set expandtab              " On pressing tab, insert 3 spaces
 
 " --- general ---
